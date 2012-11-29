@@ -1,0 +1,5 @@
+C:\Users\Attridge\AppData\Local\Temporary Projects\Consulator\obj\x86\Release\ResolveAssemblyReference.cache
+C:\Users\Attridge\AppData\Local\Temporary Projects\Consulator\bin\Release\Consulator.exe
+C:\Users\Attridge\AppData\Local\Temporary Projects\Consulator\bin\Release\Consulator.pdb
+C:\Users\Attridge\AppData\Local\Temporary Projects\Consulator\obj\x86\Release\Consulator.exe
+C:\Users\Attridge\AppData\Local\Temporary Projects\Consulator\obj\x86\Release\Consulator.pdb

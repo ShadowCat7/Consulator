@@ -3,3 +3,8 @@ C:\Users\Attridge\AppData\Local\Temporary Projects\Consulator\bin\Release\Consul
 C:\Users\Attridge\AppData\Local\Temporary Projects\Consulator\bin\Release\Consulator.pdb
 C:\Users\Attridge\AppData\Local\Temporary Projects\Consulator\obj\x86\Release\Consulator.exe
 C:\Users\Attridge\AppData\Local\Temporary Projects\Consulator\obj\x86\Release\Consulator.pdb
+C:\Users\Attridge\Programs\Consulator\bin\Release\Consulator.exe
+C:\Users\Attridge\Programs\Consulator\bin\Release\Consulator.pdb
+C:\Users\Attridge\Programs\Consulator\obj\x86\Release\ResolveAssemblyReference.cache
+C:\Users\Attridge\Programs\Consulator\obj\x86\Release\Consulator.exe
+C:\Users\Attridge\Programs\Consulator\obj\x86\Release\Consulator.pdb

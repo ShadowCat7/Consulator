@@ -165,9 +165,20 @@ namespace Consulator
 
                         for (int i = 0; i < expressions[j].Count; i++)
                         {
-                            if (expressions[j][i] == ",")
+                            if (expressions[j][i] == "^")
                             {
-                                double temp = Convert.ToDouble(expressions[j][i - 1]) - Convert.ToDouble(expressions[j][i + 1]);
+                                try
+                                {
+                                    if (expressions[j][i + 2] == ",")
+                                    {
+                                        expressions[j].RemoveAt(i + 1);
+                                        expressions[j].RemoveAt(i + 1);
+                                        expressions[j][i + 1] = (0 - Convert.ToDouble(expressions[j][i + 1])).ToString();
+                                    }
+                                }
+                                catch (ArgumentOutOfRangeException)
+                                { }
+                                double temp = Math.Pow(Convert.ToDouble(expressions[j][i - 1]), Convert.ToDouble(expressions[j][i + 1]));
                                 expressions[j].RemoveAt(i);
                                 expressions[j].RemoveAt(i);
                                 expressions[j][i - 1] = temp.ToString();
@@ -177,9 +188,9 @@ namespace Consulator
 
                         for (int i = 0; i < expressions[j].Count; i++)
                         {
-                            if (expressions[j][i] == "^")
+                            if (expressions[j][i] == ",")
                             {
-                                double temp = Math.Pow(Convert.ToDouble(expressions[j][i - 1]), Convert.ToDouble(expressions[j][i + 1]));
+                                double temp = Convert.ToDouble(expressions[j][i - 1]) - Convert.ToDouble(expressions[j][i + 1]);
                                 expressions[j].RemoveAt(i);
                                 expressions[j].RemoveAt(i);
                                 expressions[j][i - 1] = temp.ToString();
